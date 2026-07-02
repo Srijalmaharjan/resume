@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <form action="">
+         <h2>Student Registration Form</h2>
+        username: <input type="text" name="username">
+        <br> <br>
+     password:<input type="password" name="password">
+     <br> <br>
+     <label for="gender">Gender:</label>
+     Male<input type="radio" name="gender" value="male">
+     Female<input type="radio" name="gender" value="female">
+     Other<input type="radio" name="gender" value="other">
+     <br> <br>
+      Class: <select name="class">
+        <option value="1">Class 10</option>
+        <option value="2">Class 11</option>
+        <option value="3">Class 12</option>
+      </select>
+      <br> <br>
+      Choose your subject: <br> <br>
+
+    <label for="Account">
+        <input type="checkbox"name="subject" value="account" id="01">Account
+    </label>
+    <label for="eco">
+        <input type="checkbox"name="subject" value="economic" id="02">Economics
+    </label>
+    <label for="marketing">
+        <input type="checkbox"name="subject" value="marketing" id="03">Marketing
+    </label>
+    <label for="hotel">
+        <input type="checkbox"name="subject" value="hotel" id="04">Hotel Management
+    </label> 
+
+    <br> <br>
+    Comment:<textarea name="comment" id="" cols="10" rows="10">
+    </textarea>
+    <br> <br>
+    <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
